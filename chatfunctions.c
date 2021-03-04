@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "chatfunctions.h"
+#include <string.h>
 
 void greeting()
 {
@@ -16,6 +17,7 @@ void take_input(char * input)
 void respond_to(char * input, char * response)
 {	
 	puts(input); // just prints out what was inputted!
+	strcpy(response,input);
 }
 
 void goodbye()

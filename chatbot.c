@@ -22,7 +22,7 @@ int main(void)
 		take_input(input);
 		respond_to(input, response);
 		//printf("%s", response);
-
+		
 		// check if user wants to exit
 		if (strcmp(response, "quit") == 0)
 		{
