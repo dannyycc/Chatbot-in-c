@@ -8,6 +8,9 @@ int main(void)
 {
 	// declare necessary stuff
 	bool quit = false;
+	
+	// TODO: implement the clear.c file as startup animation
+	// startup();
 
 	// say greeting
 	greeting();
@@ -24,7 +27,8 @@ int main(void)
 		//printf("%s", response);
 		
 		// check if user wants to exit
-		if (strcmp(response, "quit") == 0)
+		// TODO: fix exit condition
+		if (strcmp(input, "quit") == 0)
 		{
 			quit = true;
 		}
