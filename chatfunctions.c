@@ -21,6 +21,7 @@ void respond_to(char * input, char * response)
 
 void goodbye()
 {	
+	//TODO: Use goodbye.c
 	printf("Thanks for using this amazing chatbot :)");
 	printf("Au revoir!\n");
 }
