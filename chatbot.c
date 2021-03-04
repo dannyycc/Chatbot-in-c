@@ -8,6 +8,9 @@ int main(void)
 {
 	// declare necessary stuff
 	bool quit = false;
+	
+	// TODO: implement the clear.c file as startup animation
+	// startup();
 
 	// say greeting
 	greeting();
